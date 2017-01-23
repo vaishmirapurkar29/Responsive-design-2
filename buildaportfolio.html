@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col-md-6"><img class="title-logo img-responsive" src="images_src/logo.jpg" alt="Logo" ></div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="text-thin">Jane Doette</h1>
+                <h3 class="text-super">Front-end Ninja</h3>
+            </div>
+        </header>
+
+        <section class="row">
+            <div class="col-md-12">
+                <hr id="h_rule">
+            </div>
+        </section>
+
+
+        <section class="row">
+            <div class="col-md-12">
+                <picture id="banner">
+                    <source media="(min-width: 700px)" srcset="images_src/xlmns.jpg">
+                    <source media= "(min-width:400px)" srcset="images/xlmns-200x180large.jpg">
+                    <img src="images/xlmns-150x180small.jpg" class="img-responsive img-banner" alt="Page Banner" >
+                </picture>
+            </div>
+        </section>
+
+        <section id="body">
+            <h1 id="heading">Featured Work</h1>
+            <section class="row">
+                <div class="col-md-4">
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 700px)" srcset="images/appify-275x140_large_1.jpg">
+                            <source media= "(min-width:400px)" srcset="images/appify-200x180large.jpg">
+                            <img src="images/appify-150x180small.jpg" class="img-responsive img-banner" alt="Appify" data-toggle="modal" data-target="#project1">
+                        </picture>
+                        <figcaption class="text-center text-uppercase">
+                            <p>Appify</p>
+                            <a href="https://github.com/udacity/Appify/" class="text-center">https://github.com/udacity/Appify/</a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-4">
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 700px)" srcset="images/sunflower-275x140_large_1.jpg">
+                            <source media= "(min-width:400px)" srcset="images/sunflower-200x180large.jpg">
+                            <img src="images/sunflower-150x180small.jpg" class="img-responsive img-banner" alt="Sunflower" data-toggle="modal" data-target="#project1">
+                        </picture>
+                        <figcaption class="text-center text-uppercase">
+                            <p>Sunflower</p>
+                            <a href="https://github.com/udacity/Sunflower/" >https://github.com/udacity/Sunflower/</a>
+                         </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-md-4">
+                    <figure>
+                        <picture>
+                            <source media="(min-width: 700px)" srcset="images/bokeh-275x140_large_1.jpg">
+                            <source media= "(min-width:400px)" srcset="images/bokeh-200x180large.jpg">
+                            <img src="images/bokeh-150x180small.jpg" class="img-responsive img-banner" alt="Bokeh" data-toggle="modal" data-target="#project1">
+                        </picture>
+                        <figcaption class="text-center text-uppercase">
+                            <p>Bokeh</p>
+                            <a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </section>
+        </section>
+    </div>
+
+<!-- Modal -->
+
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/images.png">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <!-- Modal -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/images.png">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
